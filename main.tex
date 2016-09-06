@@ -1,0 +1,60 @@
+\documentclass[12pt,a4paper,twoside]{book}
+
+\usepackage{enumerate}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\setlist{nosep}
+\usepackage{soul}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{multicol}
+
+\usepackage{url}
+
+\newcommand{\cfbox}[2]{%
+    \colorlet{currentcolor}{.}%
+    {\color{#1}%
+    \fbox{\color{currentcolor}#2}}%
+}
+
+
+\title{Creating EndSummerCamp: the book}
+\author{sbiriguda ono? \\
+        }
+
+%\setcounter{secnumdepth}{5} % seting level of numbering (default for "report" is 3). With ''-1'' you have non number also for chapters
+ %\setcounter{tocdepth}{5} % if you want all the levels in your table of contents
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\chapter{Intro: come leggere questo documento}
+Questo documento serve un po' come linea guida per capire c
+
+Per ogni task sarebbe opportuno avere: chi, cosa, come, quanto, quando, etc..
+
+L'ideale sarebbe che un gruppo di completi sconosciuti, con questo documento, sia in grado di organizzare ESC in completa autonomia. 
+
+Ho cercato di matenere un ordine cronologico degli eventi, evidenziando quelli che sono le criticit\`a da risolvere il prima possibile.
+
+Sarebbe ideale avere, per ogni sezione e sottosezione un paragrafo che spiega come \`e possibile migliorare il task.
+
+\include{months-before}
+
+\include{months-before3}
+
+\include{pre-esc}
+
+\include{during}
+
+\include{postesc}
+
+% other (magari un chapter unico)
+
+\include{other}
+
+\include{press}
+
+\end{document}
